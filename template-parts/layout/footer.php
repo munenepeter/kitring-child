@@ -80,3 +80,4 @@ $dashboard_url = get_permalink(get_option('woocommerce_myaccount_page_id'));
         </p>
     </div>
 </footer><!-- #colophon -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
