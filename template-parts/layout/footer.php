@@ -8,7 +8,7 @@ $dashboard_url = get_permalink(get_option('woocommerce_myaccount_page_id'));
     <div class="container px-4 mx-auto">
 
         <?php if (!str_contains($current_url, $dashboard_url) || !is_account_page()) : ?>
-            <div class="pt-32 pb-11 mx-auto max-w-4xl">
+            <div class="pt-32 pb-10 mx-auto max-w-4xl">
 
                 <?php if (has_nav_menu('menu-2')) : ?>
                     <nav aria-label="<?php esc_attr_e('Footer Menu', 'pmstylesoup'); ?>" class="flex justify-center -mx-3 lg:-mx-6">

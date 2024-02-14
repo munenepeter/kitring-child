@@ -184,5 +184,20 @@ function get_image_path($image_name)
 {
     return get_stylesheet_directory_uri() . '/' . ltrim($image_name, '/');
 }
+$info_file = __DIR__ . '/info.json';
+$services = json_decode(file_get_contents($info_file), true);
+
+$current_url = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+
+switch ($current_url) {
+	case "services":
+		require_once __DIR__ . '/services.php';
+		break;
+	case 'stylists':
+		require_once __DIR__ . '/stylists.php';
+		break;
+	default:
+		break;
+}
 
 

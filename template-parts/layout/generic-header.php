@@ -19,16 +19,11 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>/style.css">
-
-    <?php wp_head(); ?>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri()?>/style.css">
 </head>
 
-<body <?php body_class(); ?>>
-
-    <?php wp_body_open(); ?>
-
+<body>
     <div id="page">
         <a href="#content" class="sr-only"><?php esc_html_e('Skip to content', 'pmstylesoup'); ?></a>
         <div id="content">
-            <?php get_template_part('template-parts/layout/hero', 'content'); ?>
+            <?php include_once 'hero.php'; ?>

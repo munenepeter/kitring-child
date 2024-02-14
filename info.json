@@ -1,0 +1,105 @@
+[
+    {
+        "name": "braids",
+        "image": "images/Braids.jpg",
+        "stylists": [
+            {
+                "name": "User 1",
+                "location": "Nairobi",
+                "bio": "User 1, a passionate and skilled braids located in Nairobi, is dedicated to providing exceptional braids services. With years of experience, User 1 specializes in a wide range of braids techniques, including precision cutting, creative trimming, vibrant coloring, and personalized braids. Visit User 1's salon for a transformative and personalized hair care experience."
+            },
+            {
+                "name": "User 2",
+                "location": "Mombasa",
+                "bio": "User 2, a passionate and skilled braids located in Mombasa, is dedicated to providing exceptional braids services. With years of experience, User 2 specializes in a wide range of braids techniques, including precision cutting, creative trimming, vibrant coloring, and personalized braids. Visit User 2's salon for a transformative and personalized hair care experience."
+            }
+        ]
+    },
+    {
+        "name": "natural hair",
+        "image": "images/Natural-Hair.jpg",
+        "stylists": [
+            {
+                "name": "User 3",
+                "location": "Kisumu",
+                "bio": "User 3, a passionate and skilled natural hair located in Kisumu, is dedicated to providing exceptional natural hair services. With years of experience, User 3 specializes in a wide range of natural hair techniques, including precision cutting, creative trimming, vibrant coloring, and personalized natural hair. Visit User 3's salon for a transformative and personalized hair care experience."
+            }
+        ]
+    },
+    {
+        "name": "haircut",
+        "image": "images/Male-Haircut.jpg",
+        "stylists": [
+            {
+                "name": "User 4",
+                "location": "Nairobi",
+                "bio": "User 4, a passionate and skilled haircut located in Nairobi, is dedicated to providing exceptional haircut services. With years of experience, User 4 specializes in a wide range of haircut techniques, including precision cutting, creative trimming, vibrant coloring, and personalized haircut. Visit User 4's salon for a transformative and personalized hair care experience."
+            },
+            {
+                "name": "User 2",
+                "location": "Mombasa",
+                "bio": "User 2, a passionate and skilled haircut located in Mombasa, is dedicated to providing exceptional braids services. With years of experience, User 2 specializes in a wide range of braids techniques, including precision cutting, creative trimming, vibrant coloring, and personalized braids. Visit User 2's salon for a transformative and personalized hair care experience."
+            }
+        ]
+    },
+    {
+        "name": "dreadrocks",
+        "image": "images/Man-Dreadlocks.jpg",
+        "stylists": [
+            {
+                "name": "User 5",
+                "location": "Mombasa",
+                "bio": "User 5, a passionate and skilled dreadrocks located in Mombasa, is dedicated to providing exceptional dreadrocks services. With years of experience, User 5 specializes in a wide range of dreadrocks techniques, including precision cutting, creative trimming, vibrant coloring, and personalized dreadrocks. Visit User 5's salon for a transformative and personalized hair care experience."
+            }
+        ]
+    },
+    {
+        "name": "weaves",
+        "image": "images/Weave.jpg",
+        "stylists": [
+            {
+                "name": "User 6",
+                "location": "Nairobi",
+                "bio": "User 6, a passionate and skilled weaves located in Nairobi, is dedicated to providing exceptional weaves services. With years of experience, User 6 specializes in a wide range of weaves techniques, including precision cutting, creative trimming, vibrant coloring, and personalized weaves. Visit User 6's salon for a transformative and personalized hair care experience."
+            }
+        ]
+    },
+    {
+        "name": "tatoo",
+        "image": "images/Tatoo.jpg",
+        "stylists": [
+            {
+                "name": "User 7",
+                "location": "Mombasa",
+                "bio": "User 7, a passionate and skilled tatoo located in Mombasa, is dedicated to providing exceptional tatoo services. With years of experience, User 7 specializes in a wide range of tatoo techniques, including precision cutting, creative trimming, vibrant coloring, and personalized tatoo. Visit User 7's salon for a transformative and personalized hair care experience."
+            }
+        ]
+    },
+    {
+        "name": "nails",
+        "image": "images/Nails.jpg",
+        "stylists": [
+            {
+                "name": "User 8",
+                "location": "Nairobi",
+                "bio": "User 8, a passionate and skilled nails located in Nairobi, is dedicated to providing exceptional nails services. With years of experience, User 8 specializes in a wide range of nails techniques, including precision cutting, creative trimming, vibrant coloring, and personalized nails. Visit User 8's salon for a transformative and personalized hair care experience."
+            }
+        ]
+    },
+    {
+        "name": "makeup",
+        "image": "images/Make-up.jpg",
+        "stylists": [
+            {
+                "name": "User 1",
+                "location": "Nairobi",
+                "bio": "User 1, a passionate and skilled make-up artist located in Nairobi, is dedicated to providing exceptional braids services. With years of experience, User 1 specializes in a wide range of braids techniques, including precision cutting, creative trimming, vibrant coloring, and personalized braids. Visit User 1's salon for a transformative and personalized hair care experience."
+            },
+            {
+                "name": "User 9",
+                "location": "Mombasa",
+                "bio": "User 9, a passionate and skilled makeup artist located in Mombasa, is dedicated to providing exceptional makeup services. With years of experience, User 9 specializes in a wide range of makeup techniques, including precision cutting, creative trimming, vibrant coloring, and personalized makeup. Visit User 9's salon for a transformative and personalized hair care experience."
+            }
+        ]
+    }
+]
