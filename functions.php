@@ -179,6 +179,8 @@ require __DIR__ . '/inc/template-tags.php';
  * Functions which enhance the theme by hooking into WordPress.
  */
 require __DIR__. '/inc/template-functions.php';
+require __DIR__ . '/Router.php';
+
 
 function get_image_path($image_name)
 {
@@ -187,17 +189,11 @@ function get_image_path($image_name)
 $info_file = __DIR__ . '/info.json';
 $services = json_decode(file_get_contents($info_file), true);
 
-$current_url = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
-
-switch ($current_url) {
-	case "services":
-		require_once __DIR__ . '/services.php';
-		break;
-	case 'stylists':
-		require_once __DIR__ . '/stylists.php';
-		break;
-	default:
-		break;
-}
 
 
+$router = new MakeitWorkPress\WP_Router\Router( 
+    [
+        'stylists'    => ['route' => 'stylists/', 'title' => __('Our Stylists')],
+        'services'   => ['route' => 'services/', 'title' => __('Services offered')]
+    ], 
+);
