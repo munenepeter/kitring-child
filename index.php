@@ -125,7 +125,7 @@ get_header();
                 <div class="flex flex-col gap-8 lg:flex-row">
                     <div class="lg:w-1/2">
                         <h1 class="text-black text-4xl font-bold leading-tight">The Experience</h1>
-                        <p class="text-md my-4">Seeking for verbal of our service quality? Find
+                        <p class="text-md my-4 text-gray-800">Seeking for verbal of our service quality? Find
                             them here. Everything is transparent and straightforward for your sense of jusitifcation.</p>
                         <a href="#" class="bg-white text-black py-1 px-2 rounded-lg shadow-lg leading-tight font-semibold text-sm">VIEW ALL REVIEWS
                         </a>
