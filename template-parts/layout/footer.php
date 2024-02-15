@@ -72,7 +72,7 @@ $dashboard_url = get_permalink(get_option('woocommerce_myaccount_page_id'));
     </div>
 
     <div class="container px-4 mx-auto">
-        <p class="py-4 md:pb-6 text-md text-gray-400 font-medium text-center"> © <?= date('Y') ?>
+        <p class="text-md text-gray-400 font-medium text-center"> © <?= date('Y') ?>
             <?php if (!empty(get_bloginfo('name'))) :    ?>
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
             <?php endif; ?>
