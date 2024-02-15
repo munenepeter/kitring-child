@@ -13,7 +13,7 @@
     </style>
     <nav id="site-naviagtion" class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2" aria-label="<?php esc_attr_e('Main Navigation', 'pmstylesoup'); ?>">
         <a href="<?php echo esc_url(home_url('/')) ?>" class="flex items-center space-x-3">
-            <img src="<?php echo esc_url(get_image_path('images/stylesoup-dark.png')); ?>" class="h-20" alt="Flowbite Logo" />
+            <img src="<?php echo esc_url(get_image_path('images/stylesoup-light.png')); ?>" class="h-20" alt="Stylesoup Logo" />
         </a>
         <div class="flex md:order-2 items-center">
             <?php if (class_exists('WooCommerce')) : ?>
@@ -22,10 +22,8 @@
                         <a href="<?php echo esc_url(wc_get_account_endpoint_url('dashboard')); ?>" class="account-link p-2.5">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-white">
                                 <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
-
                         </a>
                     </div>
-
                     <div class="mx-2">
                         <a href="<?php echo esc_url(wc_get_cart_url()); ?>" class="cart-link p-2.5">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-white">
@@ -36,7 +34,7 @@
                     </div>
                 <?php else : ?>
                     <div class="mx-2">
-                        <a href="<?php echo esc_url(wc_get_account_endpoint_url('login')); ?>" class="account-link inline-flex justify-center items-center w-full p-2.5 text-sm text-white bg-gradient-to-r from-carrot-500 to-carrot-700 hover:from-carrot-700 hover:to-carrot-600 hover:bg-carrot-600 rounded-lg hover:text-gray-50"> Set up my Shop </a>
+                        <a href="<?php echo esc_url(wc_get_account_endpoint_url('login')); ?>" class="account-link inline-flex justify-center items-center w-full md:p-2.5 p-2 text-sm text-white bg-gradient-to-r from-carrot-500 to-carrot-700 hover:from-carrot-700 hover:to-carrot-600 hover:bg-carrot-600 rounded-lg hover:text-gray-50"> Set up my Shop </a>
                     </div>
                 <?php endif; ?>
             <?php endif; ?>
@@ -59,7 +57,7 @@
                 </svg>
             </button>
         </div>
-        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 md:bg-transparent bg-carrot-800 bg-opacity-75 p-2 md:p-0" id="navbar-search">
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 md:bg-transparent bg-carrot-500 p-2 md:p-0 my-auto" id="navbar-search">
             <div class="relative mt-3 md:hidden">
                 <div class="absolute inset-y-0 start-0 flex items-center px-3 pointer-events-none text-white">
                     <svg class="w-4 h-4 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -72,8 +70,11 @@
             wp_nav_menu([
                 'theme_location' => 'menu-1',
                 'menu_id'        => 'primary-menu',
-                'items_wrap'     => '<ul id="%1$s" class="%2$s flex flex-col p-2 md:p-0 mt-2 font-medium border border-gray-100 rounded-lg  md:space-x-8 md:flex-row md:mt-0 md:border-0 text-cgreen-500" aria-label="submenu">%3$s</ul>',
+                'items_wrap'     => '<ul id="%1$s" class="%2$s flex flex-col p-2 md:p-0 mt-2 font-medium border border-gray-100 rounded-lg  md:space-x-8 md:flex-row md:mt-0 md:border-0 text-white" aria-label="submenu">%3$s</ul>',
+                'link_before'    => '<span class="text-white hover:underline hover:font-bold menu-link-text">',
+                'link_after'     => '</span>',
             ]);
             ?>
         </div>
+    </nav>
 </header>
