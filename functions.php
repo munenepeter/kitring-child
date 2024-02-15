@@ -167,5 +167,5 @@ $services = json_decode(file_get_contents($info_file), true);
 
 $router = new MakeitWorkPress\WP_Router\Router([
 	'stylists'    => ['route' => 'stylists/', 'title' => __('Our Stylists')],
-	'services'   => ['route' => 'services/', 'title' => __('Services offered')]
+	'services'   => ['route' => 'services/', 'title' => __('Our Services')]
 ]);
